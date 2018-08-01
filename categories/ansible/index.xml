@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Istio on Krishna Venkata&#39;s Blog</title>
-    <link>/tags/istio/</link>
-    <description>Recent content in Istio on Krishna Venkata&#39;s Blog</description>
+    <title>Ansible on Krishna Venkata&#39;s Blog</title>
+    <link>/categories/ansible/</link>
+    <description>Recent content in Ansible on Krishna Venkata&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/istio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/ansible/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
