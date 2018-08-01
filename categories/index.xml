@@ -10,5 +10,23 @@
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Wiki</title>
+      <link>/categories/wiki/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/wiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wip</title>
+      <link>/categories/wip/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/wip/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
