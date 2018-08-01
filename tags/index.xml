@@ -23,7 +23,7 @@
     <item>
       <title>Kubernetes</title>
       <link>/tags/kubernetes/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/kubernetes/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>Rpi</title>
       <link>/tags/rpi/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/rpi/</guid>
       <description></description>
@@ -41,18 +41,9 @@
     <item>
       <title>Security</title>
       <link>/tags/security/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vault</title>
-      <link>/tags/vault/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/vault/</guid>
       <description></description>
     </item>
     
