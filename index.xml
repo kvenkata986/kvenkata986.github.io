@@ -36,20 +36,5 @@ Thanks for reading!</description>
   Goal  Get Hands on Ansible playbooks and know Ansible Tower  Deploy  Coming Soon  Conclusion  Coming Soon  </description>
     </item>
     
-    <item>
-      <title>Ansible Meetup</title>
-      <link>/post/2018-08-01-a/</link>
-      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2018-08-01-a/</guid>
-      <description> Topics that will be covered  Introduction to Ansible.
- Overview of Ansible Architecture and Basic modules.
- Overview and demo of Ansible Tower.
- Ansible in Real Life.
- Pros and Cons of Ansible vs Other Configuration management tools.
- Workshop
-  Goal  Get Hands on Ansible playbooks and know Ansible Tower  Deploy  Coming Soon  Conclusion  Coming Soon  </description>
-    </item>
-    
   </channel>
 </rss>
