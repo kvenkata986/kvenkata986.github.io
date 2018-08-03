@@ -23,10 +23,10 @@ Thanks for reading!</description>
     
     <item>
       <title>Ansible Meetup</title>
-      <link>/post/2018-07-31-a/</link>
+      <link>/post/2017-03-16-a/</link>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2018-07-31-a/</guid>
+      <guid>/post/2017-03-16-a/</guid>
       <description> Topics that will be covered  Introduction to Ansible.
  Overview of Ansible Architecture and Basic modules.
  Overview and demo of Ansible Tower.
