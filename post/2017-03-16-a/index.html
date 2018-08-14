@@ -13,13 +13,14 @@
         "articleSection" : "post",
         "name" : "Ansible Meetup",
         "headline" : "Ansible Meetup",
-        "description" : " Topics that will be covered  Introduction to Ansible.
+        "description" : "Topics that will be covered  Introduction to Ansible.
  Overview of Ansible Architecture and Basic modules.
  Overview and demo of Ansible Tower.
  Ansible in Real Life.
  Pros and Cons of Ansible vs Other Configuration management tools.
  Workshop
-  Goal  Get Hands on Ansible playbooks and know Ansible Tower  Deploy  Coming Soon  Conclusion  Coming Soon  ",
+  Goal - Following are the tasks to be performed as part of Ansible workshop:  Executing playbook task1.yml locally, which performs the operation
+Creating directory using Shell, File modules Demonstrate register and debug modules Install tree using Yum module",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -30,7 +31,7 @@
         "datePublished": "2017-03-16 00:00:00 &#43;0000 UTC",
         "dateModified" : "2017-03-16 00:00:00 &#43;0000 UTC",
         "url" : "/post/2017-03-16-a/",
-        "wordCount" : "52",
+        "wordCount" : "425",
         "keywords" : [ "kubernetes","security","istio","rpi","Blog" ]
     }
     </script>
@@ -55,23 +56,25 @@
 
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Ansible Meetup"/>
-<meta name="twitter:description" content=" Topics that will be covered  Introduction to Ansible.
+<meta name="twitter:description" content="Topics that will be covered  Introduction to Ansible.
  Overview of Ansible Architecture and Basic modules.
  Overview and demo of Ansible Tower.
  Ansible in Real Life.
  Pros and Cons of Ansible vs Other Configuration management tools.
  Workshop
-  Goal  Get Hands on Ansible playbooks and know Ansible Tower  Deploy  Coming Soon  Conclusion  Coming Soon  "/>
+  Goal - Following are the tasks to be performed as part of Ansible workshop:  Executing playbook task1.yml locally, which performs the operation
+Creating directory using Shell, File modules Demonstrate register and debug modules Install tree using Yum module"/>
 <meta name="twitter:site" content="@example"/>
 
         <meta property="og:title" content="Ansible Meetup" />
-<meta property="og:description" content=" Topics that will be covered  Introduction to Ansible.
+<meta property="og:description" content="Topics that will be covered  Introduction to Ansible.
  Overview of Ansible Architecture and Basic modules.
  Overview and demo of Ansible Tower.
  Ansible in Real Life.
  Pros and Cons of Ansible vs Other Configuration management tools.
  Workshop
-  Goal  Get Hands on Ansible playbooks and know Ansible Tower  Deploy  Coming Soon  Conclusion  Coming Soon  " />
+  Goal - Following are the tasks to be performed as part of Ansible workshop:  Executing playbook task1.yml locally, which performs the operation
+Creating directory using Shell, File modules Demonstrate register and debug modules Install tree using Yum module" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/2017-03-16-a/" />
 
@@ -97,18 +100,19 @@
         <meta property="og:image:height" content="512">
         
 <meta itemprop="name" content="Ansible Meetup">
-<meta itemprop="description" content=" Topics that will be covered  Introduction to Ansible.
+<meta itemprop="description" content="Topics that will be covered  Introduction to Ansible.
  Overview of Ansible Architecture and Basic modules.
  Overview and demo of Ansible Tower.
  Ansible in Real Life.
  Pros and Cons of Ansible vs Other Configuration management tools.
  Workshop
-  Goal  Get Hands on Ansible playbooks and know Ansible Tower  Deploy  Coming Soon  Conclusion  Coming Soon  ">
+  Goal - Following are the tasks to be performed as part of Ansible workshop:  Executing playbook task1.yml locally, which performs the operation
+Creating directory using Shell, File modules Demonstrate register and debug modules Install tree using Yum module">
 
 
 <meta itemprop="datePublished" content="2017-03-16T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2017-03-16T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="52">
+<meta itemprop="wordCount" content="425">
 
 
 
@@ -457,7 +461,7 @@ if (!doNotTrack) {
             March 16, 2017</time>
         <span class="author"></span>
         
-            <p>1 minute read</p>
+            <p>2 minute read</p>
         
         
     </div>
@@ -575,23 +579,151 @@ if (!doNotTrack) {
 <li><p>Workshop</p></li>
 </ol>
 
-<h2 id="goal">Goal</h2>
+<h2 id="goal-following-are-the-tasks-to-be-performed-as-part-of-ansible-workshop">Goal - Following are the tasks to be performed as part of Ansible workshop:</h2>
 
-<ul>
-<li>Get Hands on Ansible playbooks and know Ansible Tower</li>
-</ul>
+<ol>
+<li><p>Executing playbook task1.yml locally, which performs the operation</p>
 
-<h2 id="deploy">Deploy</h2>
+<p>Creating directory using Shell, File modules
+Demonstrate register and debug modules
+Install tree using Yum module</p></li>
 
-<ul>
-<li>Coming Soon</li>
-</ul>
+<li><p>Executing playbook task2.yml locally, which demonstrates use-case for</p>
 
-<h2 id="conclusion">Conclusion</h2>
+<p>Using vars module
+Using with_items module
+Using When module
+Using get_url
+Using Find</p></li>
 
-<ul>
-<li>Coming Soon</li>
-</ul>
+<li><p>Executing playbook task3.yml (on remote machine-Optional), which performs the operation of
+Installing Apache
+Using Handlers Modules</p></li>
+</ol>
+
+<h2 id="tasks">Tasks</h2>
+
+<p>Check ansible version.</p>
+
+<pre><code>ansible --version
+</code></pre>
+
+<p>Check if you’re able to ping localhost</p>
+
+<pre><code>ansible localhost –m ping
+</code></pre>
+
+<h3 id="task-1">Task 1</h3>
+
+<p>Create a file named task1.yml and copy past content in blue into the same file.</p>
+
+<pre><code>---
+- hosts: localhost
+  become: yes
+  tasks:
+  - name: create a directory using shell
+    shell: mkdir /var/log/test_dir1
+
+  - name: Create a directory using file
+    file: path=/var/log/test_dir2 state=directory mode=0755
+
+  - name: list file or directory content
+    shell: ls -l
+    register: result
+  - debug: var=result
+
+  - name: Install tree
+    apt: name=tree state=latest
+</code></pre>
+
+<p>Command to execute</p>
+
+<pre><code>ansible-playbook task1.yml
+</code></pre>
+
+<p>Verification: You can find both directories named “test_dir1” and “test_dir2”</p>
+
+<pre><code>ls –l /var/log
+</code></pre>
+
+<h3 id="task-2">Task 2</h3>
+
+<p>Create a file named task2.yml and copy past content in blue into the same file.</p>
+
+<pre><code>---
+- name: Task-02
+  hosts: localhost
+  gather_facts: yes
+  become: yes
+  vars:
+       package: ['htop','unzip','traceroute']
+  tasks:
+  - name: install httpd
+    apt: name={{ item }} state=present
+    with_items: package
+    when: ansible_os_family==&quot;Debian&quot;
+
+  - name: Download Cirros Image from HTTP link
+    get_url: url=&quot;http://download.cirros-cloud.net/0.3.5/cirros-0.3.5-x86_64-disk.img&quot; dest=&quot;/tmp/&quot; mode=0644
+
+  - name: Create a file
+    file:  path=/tmp/test.conf state=touch mode=&quot;u=rw,g=r,o=r&quot;
+
+  - name: Find file created as part of above task
+    find: paths=&quot;/tmp/&quot; patterns=&quot;test.*&quot;
+    register: result
+  - debug: var=result
+
+  - name: Create a cron job to monitor disk space
+    cron: name=&quot;Monitor_Disk&quot; minute=0 hour=&quot;1&quot; user=cloud job=&quot;sudo df -H &gt;&gt; /tmp/output.txt&quot;
+    tags: disk, monitor, df
+</code></pre>
+
+<p>Command to execute</p>
+
+<pre><code>ansible-playbook task2.yml
+</code></pre>
+
+<p>Verification: Execute using Tags. You will find Cirros Image downloaded and file created</p>
+
+<pre><code>ls /tmp 
+</code></pre>
+
+<p>Execute using Tags</p>
+
+<pre><code>ansible-playbook task2.yml –t disk
+ansible-playbook task2.yml –t monitor
+ansible-playbook task2.yml –t df
+</code></pre>
+
+<h3 id="task-3">Task 3</h3>
+
+<p>Create a file named task3.yml and copy past content in blue into the same file.</p>
+
+<pre><code>---
+- name: Task-03
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: ensure apache is at the latest version
+    apt: pkg=apache2 state=installed update_cache=true
+    notify:
+     - Start Apache2
+
+  - pause: seconds=5
+
+  - name: Copy html file
+    copy: src=/tmp/index.html dest=/var/www/html/index.html owner=ubuntu group=ubuntu mode=0644
+
+  handlers:
+    - name: Start Apache2
+      service: name=apache2 state=restarted
+</code></pre>
+
+<p>Command to execute</p>
+
+<pre><code>ansible-playbook task3.yml 
+</code></pre>
 
   </div>
 

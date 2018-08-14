@@ -37,13 +37,14 @@ Thanks for reading!</description>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/2017-03-16-a/</guid>
-      <description> Topics that will be covered  Introduction to Ansible.
+      <description>Topics that will be covered  Introduction to Ansible.
  Overview of Ansible Architecture and Basic modules.
  Overview and demo of Ansible Tower.
  Ansible in Real Life.
  Pros and Cons of Ansible vs Other Configuration management tools.
  Workshop
-  Goal  Get Hands on Ansible playbooks and know Ansible Tower  Deploy  Coming Soon  Conclusion  Coming Soon  </description>
+  Goal - Following are the tasks to be performed as part of Ansible workshop:  Executing playbook task1.yml locally, which performs the operation
+Creating directory using Shell, File modules Demonstrate register and debug modules Install tree using Yum module</description>
     </item>
     
   </channel>
