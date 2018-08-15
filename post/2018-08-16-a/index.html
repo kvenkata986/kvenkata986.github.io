@@ -25,7 +25,7 @@ Goal  To create Deployment, Service and Ingress using kubectl commands. To lever
         "datePublished": "2018-08-09 00:00:00 &#43;0000 UTC",
         "dateModified" : "2018-08-09 00:00:00 &#43;0000 UTC",
         "url" : "/post/2018-08-16-a/",
-        "wordCount" : "409",
+        "wordCount" : "464",
         "keywords" : [ "kubernetes","helm","jenkins","Blog" ]
     }
     </script>
@@ -88,7 +88,7 @@ Goal  To create Deployment, Service and Ingress using kubectl commands. To lever
 
 <meta itemprop="datePublished" content="2018-08-09T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-08-09T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="409">
+<meta itemprop="wordCount" content="464">
 
 
 
@@ -437,7 +437,7 @@ if (!doNotTrack) {
             August 9, 2018</time>
         <span class="author"></span>
         
-            <p>2 minute read</p>
+            <p>3 minute read</p>
         
         
     </div>
@@ -596,16 +596,16 @@ kubectl get ingress --namespace $NAMESPACE
 
 <p><code>Note:</code> After creating an ingress in Google cloud, it will take approximately 25min to get a Public IP</p>
 
-<p>Now lets do <code>curl</code> on our deployment</p>
+<p>To see our simple-web page, lets do <code>curl</code> on our deployment</p>
 
-<pre><code>ip=$(kubectl get service --namespace $NAMESPACE | grep nginx-service | awk '{print $3}'); curl http://$ip:80
+<pre><code>ip=$(kubectl get service --namespace $NAMESPACE | grep myfirst-service | awk '{print $3}'); curl http://$ip:80
 </code></pre>
 
 <p>Now lets delete our <code>Deployment</code>, <code>Service</code> and <code>Ingress</code>.</p>
 
-<pre><code>kubectl delete deployment nginx-deployment --namespace $NAMESPACE
-kubectl delete service nginx-service --namespace $NAMESPACE
-kubectl delete ingress nginx-ingress --namespace $NAMESPACE
+<pre><code>kubectl delete deployment myfirst-deployment --namespace $NAMESPACE
+kubectl delete service myfirst-service --namespace $NAMESPACE
+kubectl delete ingress myfirst-ingress --namespace $NAMESPACE
 </code></pre>
 
 <h2 id="using-helm-commands">Using helm Commands</h2>
@@ -634,9 +634,19 @@ kubectl get service --namespace  $NAMESPACE
 kubectl get ingress --namespace $NAMESPACE
 </code></pre>
 
-<p>Now lets update some values in helm charts. lets scale our pod count to <code>9</code> and upgrade nginx version to <code>1.7.10</code></p>
+<p>To see our simple-web page, lets do <code>curl</code> on our deployment</p>
 
-<pre><code>helm upgrade --set replica=9,version=&quot;1.7.10&quot; my-first-helm-chart-$NAMESPACE . --namespace $NAMESPACE
+<pre><code>ip=$(kubectl get service --namespace $NAMESPACE | grep myfirst-service | awk '{print $3}'); curl http://$ip:80
+</code></pre>
+
+<p>Now lets update some values in helm charts. lets scale our pod count to <code>9</code> and upgrade simple-web version to <code>1.1</code></p>
+
+<pre><code>helm upgrade --set replica=9,version=&quot;1.1&quot; my-first-helm-chart-$NAMESPACE . --namespace $NAMESPACE
+</code></pre>
+
+<p>To see our upgraded simple-web page, lets do <code>curl</code> on our deployment</p>
+
+<pre><code>ip=$(kubectl get service --namespace $NAMESPACE | grep myfirst-service | awk '{print $3}'); curl http://$ip:80
 </code></pre>
 
 <p>Now lets delete of helm charts</p>
