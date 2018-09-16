@@ -6,15 +6,33 @@
     <description>Recent content in Tags on Krishna Venkata&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>CI/CD Pipeline</title>
+      <link>/tags/ci/cd-pipeline/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ci/cd-pipeline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dockerhub</title>
+      <link>/tags/dockerhub/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dockerhub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Helm</title>
       <link>/tags/helm/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/helm/</guid>
       <description></description>
@@ -41,7 +59,7 @@
     <item>
       <title>Kubernetes</title>
       <link>/tags/kubernetes/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/kubernetes/</guid>
       <description></description>
@@ -62,6 +80,15 @@
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travis-ci</title>
+      <link>/tags/travis-ci/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/travis-ci/</guid>
       <description></description>
     </item>
     
