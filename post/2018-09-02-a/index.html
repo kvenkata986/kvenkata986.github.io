@@ -13,7 +13,7 @@
         "articleSection" : "post",
         "name" : "E2E Pipeline Integrating Docker, Kubernetes and Helm using Travis-ci",
         "headline" : "E2E Pipeline Integrating Docker, Kubernetes and Helm using Travis-ci",
-        "description" : "In this post, I will describe how to Build, Publish and Test Docker Images",
+        "description" : " ",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -24,7 +24,7 @@
         "datePublished": "2018-09-02 00:00:00 &#43;0000 UTC",
         "dateModified" : "2018-09-02 00:00:00 &#43;0000 UTC",
         "url" : "/post/2018-09-02-a/",
-        "wordCount" : "462",
+        "wordCount" : "448",
         "keywords" : [ "dockerhub","kubernetes","helm","travis-ci","CI/CD Pipeline","Blog" ]
     }
     </script>
@@ -42,16 +42,16 @@
 
         
         
-            <meta name="description" content="In this post, I will describe how to Build, Publish and Test Docker Images">
+            <meta name="description" content=" ">
         
 
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="E2E Pipeline Integrating Docker, Kubernetes and Helm using Travis-ci"/>
-<meta name="twitter:description" content="In this post, I will describe how to Build, Publish and Test Docker Images"/>
+<meta name="twitter:description" content=" "/>
 <meta name="twitter:site" content="@example"/>
 
         <meta property="og:title" content="E2E Pipeline Integrating Docker, Kubernetes and Helm using Travis-ci" />
-<meta property="og:description" content="In this post, I will describe how to Build, Publish and Test Docker Images" />
+<meta property="og:description" content=" " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/2018-09-02-a/" />
 
@@ -77,12 +77,12 @@
         <meta property="og:image:height" content="512">
         
 <meta itemprop="name" content="E2E Pipeline Integrating Docker, Kubernetes and Helm using Travis-ci">
-<meta itemprop="description" content="In this post, I will describe how to Build, Publish and Test Docker Images">
+<meta itemprop="description" content=" ">
 
 
 <meta itemprop="datePublished" content="2018-09-02T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-09-02T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="462">
+<meta itemprop="wordCount" content="448">
 
 
 
@@ -434,7 +434,7 @@ if (!doNotTrack) {
             
         
         
-            <p>In this post, I will describe how to Build, Publish and Test Docker Images</p>
+            <p> </p>
         
     </div>
     <div class="meta">
@@ -549,118 +549,94 @@ if (!doNotTrack) {
 
 <h1 id="overview">Overview</h1>
 
-<p>In this session, we will go through the process of Building and Publishing Docker Images and deploying the newly created Docker image using helm charts in Kubernetes environment. All these process would be triggered by travis-ci once you push the Docker Image. For every Job triggered, travis-ci spins a new Instance for executing the flow  defined in <code>.travis.yml</code></p>
-
-<p><img src="/images/Travis-Overview.png" alt="" /></p>
+<p>In this post, we will go through the process of Building and Publishing Docker Images and deploying the newly created Docker image using helm charts in Kubernetes environment. All these processes would be triggered by travis-ci once you push the Docker Image. For every Job triggered, travis-ci spins a new Instance for executing the flow  defined in <code>.travis.yml</code>
+<img src="/images/Travis-Overview.png" alt="" /></p>
 
 <h2 id="goal">Goal</h2>
 
+<p>Creating a pipeline for building and deploying docker images.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>To start using Travis CI, you need to have:</p>
+
+<ol>
+<li>A GitHub account.</li>
+<li>Owner permissions for a project hosted on GitHub.</li>
+<li>Account and Docker Repository in <a href="https://id.docker.com/login/?next=%2Fid%2Foauth%2Fauthorize%2F%3Fclient_id%3D43f17c5f-9ba4-4f13-853d-9d0074e349a7%26next%3Dhttps%253A%252F%252Fhub.docker.com%252F%26nonce%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI0M2YxN2M1Zi05YmE0LTRmMTMtODUzZC05ZDAwNzRlMzQ5YTciLCJleHAiOjE1MzcxNDQzNjAsImlhdCI6MTUzNzE0NDA2MCwicmZwIjoidFpFbTdQN09jdWNJOHhhd04wQldldz09IiwidGFyZ2V0X2xpbmtfdXJpIjoiaHR0cHM6Ly9odWIuZG9ja2VyLmNvbS8ifQ.R5x-qEZ2ihnxVpWvYxLSbF40deBq7kGjiyU8jnX-0l4%26redirect_uri%3Dhttps%253A%252F%252Fhub.docker.com%252Fsso%252Fcallback%26response_type%3Dcode%26scope%3Dopenid%26state%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI0M2YxN2M1Zi05YmE0LTRmMTMtODUzZC05ZDAwNzRlMzQ5YTciLCJleHAiOjE1MzcxNDQzNjAsImlhdCI6MTUzNzE0NDA2MCwicmZwIjoidFpFbTdQN09jdWNJOHhhd04wQldldz09IiwidGFyZ2V0X2xpbmtfdXJpIjoiaHR0cHM6Ly9odWIuZG9ja2VyLmNvbS8ifQ.R5x-qEZ2ihnxVpWvYxLSbF40deBq7kGjiyU8jnX-0l4" title="DockerHub">DockerHub</a>.</li>
+</ol>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<ol>
+<li>Navigate to <a href="https://travis-ci.org/" title="Travis-CI">Travis-ci.com</a> and Sign up with <a href="https://github.com/" title="GitHub Home Page">GitHub.com</a></li>
+<li>Accept the Authorization of Travis CI. You’ll be redirected to GitHub.</li>
+<li>Click the green Activate button, and select the repositories you want to use with Travis CI.</li>
+<li>In your GitHub repo, create a file called <code>.travis.yml</code> to tell Travis CI what to do.
+<img src="/images/travis-yaml.png" alt="" /></li>
+<li>Add below contents to <code>.travis.yaml</code></li>
+</ol>
+
+<p>The below <code>.travis.yaml</code> tells travis-ci</p>
+
 <ul>
-<li>Creating pipeline for building and deploying docker images.</li>
+<li>To create an instance of distribution <code>xenial</code> [ Ubuntu 16.04 ].</li>
+<li>Install <code>Docker</code>, So you can add docker commands to your builds.</li>
+<li>In <code>before_script:</code> section, we specify the location of our DockerFile.</li>
+<li>In <code>script:</code>section, we specify the repo name in dockerhub.</li>
+
+<li><p>In <code>after_script:</code> section, we are installing Kubernetes, Helm and Installing our Helm Charts.</p>
+
+<pre><code>dist: xenial
+sudo: required
+services:
+- docker
+
+env:
+- CHANGE_MINIKUBE_NONE_USER=true
+
+before_script:
+# Build Docker Image
+- docker build -t kvenkata986/welcome images/helm-meetup/.  # Path to DockerFile
+
+script:
+# Publish Docker Image to Docker Hub
+- docker images kvenkata986/welcome 
+- if [ &quot;$TRAVIS_BRANCH&quot; == &quot;master&quot; ]; then
+docker login  --username=&quot;$DOCKER_USER&quot; --password=&quot;$DOCKER_PASS&quot;;
+docker push kvenkata986/welcome;
+fi
+
+after_script:
+# Install Kubernetes
+- curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.9.0/bin/linux/amd64/kubectl &amp;&amp; chmod +x kubectl &amp;&amp; sudo mv kubectl /usr/local/bin/
+- curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.25.2/minikube-linux-amd64 &amp;&amp; chmod +x minikube &amp;&amp; sudo mv minikube /usr/local/bin/
+- sudo minikube start --vm-driver=none --kubernetes-version=v1.9.0
+- minikube update-context
+- JSONPATH='{range .items[*]}{@.metadata.name}:{range @.status.conditions[*]}{@.type}={@.status};{end}{end}'; until kubectl get nodes -o jsonpath=&quot;$JSONPATH&quot; 2&gt;&amp;1 | grep -q &quot;Ready=True&quot;; do sleep 1; done
+- kubectl cluster-info
+- JSONPATH='{range .items[*]}{@.metadata.name}:{range @.status.conditions[*]}{@.type}={@.status};{end}{end}'; until kubectl -n kube-system get pods -lk8s-app=kube-dns -o jsonpath=&quot;$JSONPATH&quot; 2&gt;&amp;1 | grep -q &quot;Ready=True&quot;; do sleep 1;echo &quot;waiting for kube-dns to be available&quot;; kubectl get pods --all-namespaces; done
+- kubectl get nodes
+- sudo apt-get install -y --upgrade util-linux socat
+# Install Helm:
+- wget https://storage.googleapis.com/kubernetes-helm/helm-v2.10.0-linux-amd64.tar.gz 
+- tar -xvzf helm-v2.10.0-linux-amd64.tar.gz
+- sudo mv linux-amd64/helm /usr/local/bin/helm
+- helm init
+- kubectl delete deployment tiller-deploy --namespace=kube-system ; kubectl delete service tiller-deploy --namespace=kube-system ; rm -rf ~/.helm/
+- kubectl create -f helm.yaml
+- helm init --service-account helm
+- sleep 20
+- kubectl get po --namespace kube-system
+# Deploy Helm Charts.
+- cd helm-travis
+- helm install . --name my-first-helm-chart # Use your Helmcharts
+- helm list
+</code></pre></li>
 </ul>
 
-<h2 id="using-kubectl-commands">Using Kubectl Commands</h2>
-
-<p>Let&rsquo;s set our namespace as a environment variable. <strong>Note: Replace <code>{{ username }}</code> with actual username provided to you to login to the system</strong></p>
-
-<pre><code>export NAMESPACE={{ username }}
-Example: export NAMESPACE=user1
-</code></pre>
-
-<p>Let&rsquo;s verify if our environment variable is set as your login <code>username</code></p>
-
-<pre><code>echo $NAMESPACE
-</code></pre>
-
-<p>Now lets create a kubernetes namespace.</p>
-
-<pre><code>kubectl create namespace $NAMESPACE
-</code></pre>
-
-<p>Let&rsquo;s clone <code>helm-meetup</code> repo from github</p>
-
-<pre><code>git clone https://github.com/kvenkata986/helm-meetup.git
-</code></pre>
-
-<p>Now lets navigate to <code>helm-meetup/kubectl</code> directory. List the files in the directory and you will notice three files <code>deployment.yaml</code>, <code>service.yaml</code> and <code>ingress.yaml</code></p>
-
-<pre><code>cd helm-meetup/kubectl
-ls -l
-</code></pre>
-
-<p>Now lets create <code>Deployment</code>, <code>Service</code> and <code>Ingress</code> using <code>kubectl</code> commands.</p>
-
-<pre><code>kubectl create -f deployment.yaml --namespace $NAMESPACE
-kubectl create -f service.yaml --namespace $NAMESPACE
-kubectl create -f ingress.yaml --namespace $NAMESPACE
-</code></pre>
-
-<p>Now lets verify if our <code>Deployment</code>, <code>Service</code> and <code>Ingress</code> are actually created.</p>
-
-<pre><code>kubectl get deployments --namespace $NAMESPACE
-kubectl get service --namespace  $NAMESPACE
-kubectl get ingress --namespace $NAMESPACE
-</code></pre>
-
-<p><code>Note:</code> After creating an ingress in Google cloud, it will take approximately 25min to get a Public IP</p>
-
-<p>To see our simple-web page, lets do <code>curl</code> on our deployment</p>
-
-<pre><code>ip=$(kubectl get service --namespace $NAMESPACE | grep myfirst-service | awk '{print $3}'); curl http://$ip:80
-</code></pre>
-
-<p>Now lets delete our <code>Deployment</code>, <code>Service</code> and <code>Ingress</code>.</p>
-
-<pre><code>kubectl delete deployment myfirst-deployment --namespace $NAMESPACE
-kubectl delete service myfirst-service --namespace $NAMESPACE
-kubectl delete ingress myfirst-ingress --namespace $NAMESPACE
-</code></pre>
-
-<h2 id="using-helm-commands">Using helm Commands</h2>
-
-<p>Now lets navigate to <code>helm</code> directory. List the files in the directory and you will notice <code>Chart.yaml</code>, <code>values.yaml</code> files and <code>templates/</code> directory.</p>
-
-<pre><code>cd ../helm
-ls -l
-</code></pre>
-
-<p>Now lets see if any helm charts are installed in your namespace.</p>
-
-<pre><code>helm list --namespace $NAMESPACE
-</code></pre>
-
-<p>Now lets install helm-nginx chart.</p>
-
-<pre><code>helm install . --name my-first-helm-chart-$NAMESPACE --namespace $NAMESPACE
-</code></pre>
-
-<p>Now lets verify if helm chart was successfully installed in your namespace.</p>
-
-<pre><code>helm list --namespace $NAMESPACE
-kubectl get deployments --namespace $NAMESPACE
-kubectl get service --namespace  $NAMESPACE
-kubectl get ingress --namespace $NAMESPACE
-</code></pre>
-
-<p>To see our simple-web page, lets do <code>curl</code> on our deployment</p>
-
-<pre><code>ip=$(kubectl get service --namespace $NAMESPACE | grep myfirst-service | awk '{print $3}'); curl http://$ip:80
-</code></pre>
-
-<p>Now lets update some values in helm charts. lets scale our pod count to <code>9</code> and upgrade simple-web version to <code>1.1</code></p>
-
-<pre><code>helm upgrade --set replica=9,version=&quot;1.1&quot; my-first-helm-chart-$NAMESPACE . --namespace $NAMESPACE
-</code></pre>
-
-<p>To see our upgraded simple-web page, lets do <code>curl</code> on our deployment</p>
-
-<pre><code>ip=$(kubectl get service --namespace $NAMESPACE | grep myfirst-service | awk '{print $3}'); curl http://$ip:80
-</code></pre>
-
-<p>Now lets delete of helm charts</p>
-
-<pre><code> helm delete my-first-helm-chart-$NAMESPACE
-</code></pre>
+<p>Successful Execution
+<img src="/images/Travis-output.png" alt="" /></p>
 
   </div>
 
