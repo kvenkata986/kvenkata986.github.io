@@ -17,7 +17,8 @@
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019-05-27-a/</guid>
-      <description>Overview In this post, we will go through the basics of Google Tekton and build Tekton pipeline to build container images using Kaniko and publish them to dockerhub. As of now triggering of the build is manual until auto trigger feature is live. Goal Creating a pipeline for building and publishing Container images.
+      <description>Overview In this post, we will go through the basics of Google Tekton and build Tekton pipeline to build container images using Kaniko and publish them to dockerhub. As of now triggering of the build is manual until auto trigger feature is live.
+Goal Creating a pipeline for building and publishing Container images.
 Prerequisites To start using Tekton, you need to have:
  A GitHub account. Owner permissions for a project hosted on GitHub.</description>
     </item>
