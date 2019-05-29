@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Krishna Venkata&#39;s Blog</title>
-    <link>https://github.com/kvenkata986/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Krishna Venkata&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://github.com/kvenkata986/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>wiki</title>
-      <link>https://github.com/kvenkata986/categories/wiki/</link>
+      <link>/categories/wiki/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/kvenkata986/categories/wiki/</guid>
+      <guid>/categories/wiki/</guid>
       <description></description>
     </item>
     
     <item>
       <title>meetup</title>
-      <link>https://github.com/kvenkata986/categories/meetup/</link>
+      <link>/categories/meetup/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/kvenkata986/categories/meetup/</guid>
+      <guid>/categories/meetup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ansible</title>
-      <link>https://github.com/kvenkata986/categories/ansible/</link>
+      <link>/categories/ansible/</link>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/kvenkata986/categories/ansible/</guid>
+      <guid>/categories/ansible/</guid>
       <description></description>
     </item>
     

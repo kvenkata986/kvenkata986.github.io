@@ -3,134 +3,134 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://github.com/kvenkata986/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/tags/ci/cd-pipeline/</loc>
+    <loc>/tags/ci/cd-pipeline/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/</loc>
+    <loc>/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/post/2019-05-27-a/</loc>
+    <loc>/post/2019-05-27-a/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/tags/dockerhub/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://github.com/kvenkata986/tags/helm/</loc>
+    <loc>/tags/dockerhub/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/tags/kubernetes/</loc>
+    <loc>/tags/helm/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/tags/tekton/</loc>
+    <loc>/tags/kubernetes/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/categories/wiki/</loc>
+    <loc>/tags/tekton/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/post/2018-09-02-a/</loc>
+    <loc>/categories/wiki/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2018-09-02-a/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/tags/travis-ci/</loc>
+    <loc>/tags/travis-ci/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/post/2018-08-16-a/</loc>
+    <loc>/post/2018-08-16-a/</loc>
     <lastmod>2018-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/tags/jenkins/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://github.com/kvenkata986/categories/meetup/</loc>
+    <loc>/tags/jenkins/</loc>
     <lastmod>2018-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/about/</loc>
+    <loc>/categories/meetup/</loc>
+    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/post/2017-03-16-a/</loc>
+    <loc>/post/2017-03-16-a/</loc>
     <lastmod>2017-03-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/categories/ansible/</loc>
-    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://github.com/kvenkata986/tags/istio/</loc>
+    <loc>/categories/ansible/</loc>
     <lastmod>2017-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/tags/rpi/</loc>
+    <loc>/tags/istio/</loc>
     <lastmod>2017-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/tags/security/</loc>
+    <loc>/tags/rpi/</loc>
     <lastmod>2017-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/kvenkata986/news/</loc>
+    <loc>/tags/security/</loc>
+    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/news/</loc>
     <priority>0</priority>
   </url>
   

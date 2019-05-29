@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jenkins on Krishna Venkata&#39;s Blog</title>
-    <link>https://github.com/kvenkata986/tags/jenkins/</link>
+    <link>/tags/jenkins/</link>
     <description>Recent content in jenkins on Krishna Venkata&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://github.com/kvenkata986/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Journey of Kubernetes, Helm and Jenkins</title>
-      <link>https://github.com/kvenkata986/post/2018-08-16-a/</link>
+      <link>/post/2018-08-16-a/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/kvenkata986/post/2018-08-16-a/</guid>
+      <guid>/post/2018-08-16-a/</guid>
       <description>Overview In this session, we will go through the basics of Kubernetes and Helm. We would be discussing the complexities of writing and managing Kubernetes Yaml&amp;rsquo;s and how we can overcome by Helm Charts. Next, a simple workflow demonstration of CICD involving Helm, Git, and Jenkins.
 Goal  To create Deployment, Service and Ingress using kubectl commands. To leverage Helm charts over Kubernetes yamls. Continuously delivering applications to Kubernetes using Helm.</description>
     </item>
