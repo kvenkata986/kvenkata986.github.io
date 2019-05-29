@@ -3,121 +3,134 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/2018-09-02-a/</loc>
+    <loc>https://github.com/kvenkata986/post/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/tags/ci/cd-pipeline/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/categories/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/tags/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/post/2019-05-27-a/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/tags/dockerhub/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/tags/helm/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/tags/kubernetes/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/tags/tekton/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/categories/wiki/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/post/2018-09-02-a/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2018-08-16-a/</loc>
+    <loc>https://github.com/kvenkata986/tags/travis-ci/</loc>
+    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/post/2018-08-16-a/</loc>
     <lastmod>2018-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://github.com/kvenkata986/tags/jenkins/</loc>
+    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/categories/meetup/</loc>
+    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/kvenkata986/about/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2017-03-16-a/</loc>
+    <loc>https://github.com/kvenkata986/post/2017-03-16-a/</loc>
     <lastmod>2017-03-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/news/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/ansible/</loc>
+    <loc>https://github.com/kvenkata986/categories/ansible/</loc>
     <lastmod>2017-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ci/cd-pipeline/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
+    <loc>https://github.com/kvenkata986/tags/istio/</loc>
     <lastmod>2017-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/dockerhub/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/helm/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/istio/</loc>
+    <loc>https://github.com/kvenkata986/tags/rpi/</loc>
     <lastmod>2017-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/jenkins/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/kubernetes/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/meetup/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/rpi/</loc>
+    <loc>https://github.com/kvenkata986/tags/security/</loc>
     <lastmod>2017-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/security/</loc>
-    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/travis-ci/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/wiki/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+    <loc>https://github.com/kvenkata986/news/</loc>
     <priority>0</priority>
   </url>
   

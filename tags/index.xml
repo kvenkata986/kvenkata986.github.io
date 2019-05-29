@@ -2,93 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Krishna Venkata&#39;s Blog</title>
-    <link>/tags/</link>
+    <link>https://github.com/kvenkata986/tags/</link>
     <description>Recent content in Tags on Krishna Venkata&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/kvenkata986/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CI/CD Pipeline</title>
-      <link>/tags/ci/cd-pipeline/</link>
+      <link>https://github.com/kvenkata986/tags/ci/cd-pipeline/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/kvenkata986/tags/ci/cd-pipeline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dockerhub</title>
+      <link>https://github.com/kvenkata986/tags/dockerhub/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/kvenkata986/tags/dockerhub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>helm</title>
+      <link>https://github.com/kvenkata986/tags/helm/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/kvenkata986/tags/helm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://github.com/kvenkata986/tags/kubernetes/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/kvenkata986/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tekton</title>
+      <link>https://github.com/kvenkata986/tags/tekton/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/kvenkata986/tags/tekton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travis-ci</title>
+      <link>https://github.com/kvenkata986/tags/travis-ci/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ci/cd-pipeline/</guid>
+      <guid>https://github.com/kvenkata986/tags/travis-ci/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Dockerhub</title>
-      <link>/tags/dockerhub/</link>
-      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/dockerhub/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Helm</title>
-      <link>/tags/helm/</link>
-      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/helm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Istio</title>
-      <link>/tags/istio/</link>
-      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/istio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jenkins</title>
-      <link>/tags/jenkins/</link>
+      <title>jenkins</title>
+      <link>https://github.com/kvenkata986/tags/jenkins/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/jenkins/</guid>
+      <guid>https://github.com/kvenkata986/tags/jenkins/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Kubernetes</title>
-      <link>/tags/kubernetes/</link>
-      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rpi</title>
-      <link>/tags/rpi/</link>
+      <title>istio</title>
+      <link>https://github.com/kvenkata986/tags/istio/</link>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/rpi/</guid>
+      <guid>https://github.com/kvenkata986/tags/istio/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Security</title>
-      <link>/tags/security/</link>
+      <title>rpi</title>
+      <link>https://github.com/kvenkata986/tags/rpi/</link>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/security/</guid>
+      <guid>https://github.com/kvenkata986/tags/rpi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Travis-ci</title>
-      <link>/tags/travis-ci/</link>
-      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      <title>security</title>
+      <link>https://github.com/kvenkata986/tags/security/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/travis-ci/</guid>
+      <guid>https://github.com/kvenkata986/tags/security/</guid>
       <description></description>
     </item>
     

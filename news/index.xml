@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Krishna Venkata&#39;s Blog</title>
-    <link>/news/</link>
+    <link>https://github.com/kvenkata986/news/</link>
     <description>Recent content on Krishna Venkata&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/kvenkata986/news/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
