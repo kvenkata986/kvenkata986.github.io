@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Krishna Venkata&#39;s Blog</title>
+    <title>Post on Krishna Venkata&#39;s Blog</title>
     <link>/post/</link>
-    <description>Recent content on Krishna Venkata&#39;s Blog</description>
+    <description>Recent content in Post on Krishna Venkata&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Tekton Pipelines</title>
+      <title>Tekton  Pipelines</title>
       <link>/post/2019-05-27-a/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       
