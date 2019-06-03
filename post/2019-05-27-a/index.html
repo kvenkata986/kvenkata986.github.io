@@ -24,7 +24,7 @@
         "datePublished": "2019-05-27 00:00:00 \x2b0000 UTC",
         "dateModified" : "2019-05-27 00:00:00 \x2b0000 UTC",
         "url" : "\/post\/2019-05-27-a\/",
-        "wordCount" : "325",
+        "wordCount" : "414",
         "keywords" : [ "dockerhub","kubernetes","helm","tekton","CI\/CD Pipeline","Blog" ]
     }
     </script>
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2019-05-27T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-05-27T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="325">
+<meta itemprop="wordCount" content="414">
 
 
 
@@ -587,10 +587,28 @@ if (!doNotTrack) {
 
 <li><p>Install Tekton. This command downloads latest release of tekton and does a <code>kubectl apply -f https://storage.googleapis.com/tekton-releases/latest/release.yaml</code></p>
 
-<pre><code>./install.sh deploy_tekton 
+<pre><code>./install.sh deploy_tekton
 </code></pre></li>
 
-<li></li>
+<li><p>Create Docker Registry Secret. Please update <code>&lt;name&gt;</code> with DockerHub username and <code>&lt;Password&gt;</code> with DockerHub Password and <code>&lt;Email&gt;</code> with DockerHub email</p>
+
+<pre><code>./install.sh docker_registry --UserName &lt;NAME&gt; --Password &lt;Password&gt; --Email &lt;Email&gt;
+</code></pre></li>
+
+<li><p>Now create <code>PipelineResource</code> for Github and DockerHub. Here we specify our git repository and Project in DockerHub were images are pushed</p>
+
+<pre><code>./install.sh create_PipelineResource
+</code></pre></li>
+
+<li><p>Now Create a <code>Task</code> which downloads our repo specified in above step from github and using the <code>Dockerfile</code> from the downloaded repo, it builds Image using kaniko.</p>
+
+<pre><code>./install.sh create_task
+</code></pre></li>
+
+<li><p>Now Create <code>TaskRun</code> to run above pipeline</p>
+
+<pre><code>./install.sh create_TaskRun
+</code></pre></li>
 </ol>
 
   </div>
