@@ -6,13 +6,25 @@
     <description>Recent content in wiki on Krishna Venkata&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/wiki/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Operators Hands On</title>
+      <link>/post/2019-10-29-a/</link>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-10-29-a/</guid>
+      <description>Overview In this demo, we will build a GO-based Operator called Cloner. The project name is openinfra-summit. kind is kind: Cloner
+Goal Create a simple Go-based Operator where the custom resource for the application is Kind: Cloner. Cloner is a simple nignx based application.
+Overview  Create a project called openinfra-summit using the operator-sdk command line.
+ The main program for the operator is cmd/manager/main.go that initializes and runs the Manager.</description>
+    </item>
+    
+    <item>
+      <title>Tektons Hands On</title>
       <link>/post/2019-10-28-a/</link>
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
       
