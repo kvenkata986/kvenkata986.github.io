@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Krishna Venkata&#39;s Blog</title>
@@ -66,6 +66,29 @@ Thanks for reading!</description>
  Workshop
   Goal - Following are the tasks to be performed as part of Ansible workshop:  Executing playbook task1.yml locally, which performs the operation
 Creating directory using Shell, File modules Demonstrate register and debug modules Install tree using Yum module</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2019-10-28-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-10-28-a/</guid>
+      <description>Overview In this demo, we will go through the basics of Google Tekton and build Tekton pipeline to build container images using Kaniko and publish them to dockerhub.
+Goal Creating a pipeline for building and publishing Container images.
+Overview Tekton Pipelines is an OpenSource project by Google to Build, Run and Maintain CI/CD pipelines for Kubernetes Apps and provides k8s-style resources declaration for CI/CD-style pipelines. Tekton Pipelines are built using Kubernetes CRD’s, it is based on Operator model.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2019-10-29-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-10-29-a/</guid>
+      <description>Overview In this demo, we will build a GO-based Operator called Cloner. The project name is openinfra-summit. kind is kind: Cloner
+Goal Create a simple Go-based Operator where the custom resource for the application is Kind: Cloner. Cloner is a simple nignx based application.
+Overview  Create a project called openinfra-summit using the operator-sdk command line.
+ The main program for the operator is cmd/manager/main.go that initializes and runs the Manager.</description>
     </item>
     
   </channel>
